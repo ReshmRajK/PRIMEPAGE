@@ -23,10 +23,15 @@ div{
 }
 .prime-form{
     text-align: center;
+    column-gap: 2rem;
 }
 div:hover{
     opacity: 1;
 }
+@media(max-width:550px){
+    button{
+        margin-top: 10px;
+    }
+}
 
 
-/* <!--
