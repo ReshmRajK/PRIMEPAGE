@@ -21,6 +21,10 @@
    <script>
     function primeNumber(){
       num=parseInt(p.value)
+      if(num==1){
+        alert("Non prime or composite")
+      }
+      else{
         for(i=2;i<num;i++){
             if(num%i==0){
                 alert("non prime")
@@ -30,6 +34,7 @@
         if(num==i){
             alert("prime");
         }
+    }
     }
   
    </script>
