@@ -10,16 +10,21 @@ header{
     margin-top: 7rem;
     color:#006400;
 }
-.prime-form{
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url(./primeNumber.jpg);
-    padding: 4rem 0rem 4rem;
-    margin: 7rem 15rem 7rem 15rem;
-    text-align: center;
+    border: 5px solid red;
     border-radius: 30%;
-    border: 5px solid blue;
+    padding: 5rem;
     opacity: 0.5;
+    margin-top: 5rem;
 }
-.prime-form:hover{
+.prime-form{
+    text-align: center;
+}
+div:hover{
     opacity: 1;
 }
 
